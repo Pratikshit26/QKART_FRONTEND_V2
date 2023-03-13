@@ -1,0 +1,12 @@
+.table {
+  color: rgb(134, 134, 134) !important;
+  font-weight: 700 !important;
+}
+
+.heading {
+  font-weight: 900 !important;
+}
+
+::-webkit-scrollbar {
+  display: none !important;
+}

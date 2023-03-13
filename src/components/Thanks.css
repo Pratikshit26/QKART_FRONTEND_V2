@@ -1,0 +1,62 @@
+
+p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-bottom: 1rem;
+}
+
+.greeting-container {
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1rem;
+  background-color: #dcffe4;
+}
+
+#balance-overline {
+  font-weight: 700;
+  margin: 1rem 0 0.5rem 0;
+}
+
+#balance {
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+#continue-btn {
+  font-weight: 700;
+  text-transform: none;
+}
+
+@media screen and (min-width: 768px) {
+  .greeting-container {
+    padding: 4rem;
+  }
+}
+
+.action_buttons button {
+  margin: 1rem;
+  width: 90%;
+}
+
+.title {
+  text-align: center;
+  color: #000;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.iframe {
+  margin: 0 10px;
+  height: 300px;
+  width: 200px;
+  border: none;
+  padding: 0;
+  background-color: white;
+}
+
+body {
+  margin: 0 !important;
+}
